@@ -1,0 +1,102 @@
+[
+  {
+    "PersonId": "d75f8a62-bfb5-4c45-a5b3-6ad0e88a2c0a",
+    "PersonName": "John Doe",
+    "Email": "johndoe@example.com",
+    "DateOfBirth": "1985-07-25T00:00:00",
+    "Gender": "Male",
+    "CountryId": "56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104",
+    "Address": "123 Elm Street, Springfield",
+    "ReceiveNewsLetter": true
+  },
+  {
+    "PersonId": "b234f654-a8b2-42b6-9f4a-90d58ebc3fcb",
+    "PersonName": "Jane Smith",
+    "Email": "janesmith@example.com",
+    "DateOfBirth": "1990-11-15T00:00:00",
+    "Gender": "Female",
+    "CountryId": "78e912ac-d73d-463b-9f39-37e53ef9e8b7",
+    "Address": "456 Oak Avenue, Metropolis",
+    "ReceiveNewsLetter": false
+  },
+  {
+    "PersonId": "d912f360-e1a4-48fc-9461-fae8c22960f3",
+    "PersonName": "Samuel Lee",
+    "Email": "samlee@example.com",
+    "DateOfBirth": "1978-02-10T00:00:00",
+    "Gender": "Male",
+    "CountryId": "e71a8c23-97c5-47b5-9c72-bd2f517d0dc2",
+    "Address": "789 Maple Lane, Gotham",
+    "ReceiveNewsLetter": true
+  },
+  {
+    "PersonId": "f456789c-435a-4e4b-975c-d416ad8d35db",
+    "PersonName": "Emily Davis",
+    "Email": "emilydavis@example.com",
+    "DateOfBirth": "2000-06-30T00:00:00",
+    "Gender": "Female",
+    "CountryId": "e71a8c23-97c5-47b5-9c72-bd2f517d0dc2",
+    "Address": "321 Birch Boulevard, Star City",
+    "ReceiveNewsLetter": false
+  },
+  {
+    "PersonId": "e412c1c6-8823-44fc-a4bd-8e0df1fcaa9c",
+    "PersonName": "Michael Brown",
+    "Email": "michaelbrown@example.com",
+    "DateOfBirth": "1995-03-18T00:00:00",
+    "Gender": "Male",
+    "CountryId": "e71a8c23-97c5-47b5-9c72-bd2f517d0dc2",
+    "Address": "654 Pine Street, Central City",
+    "ReceiveNewsLetter": true
+  },
+  {
+    "PersonId": "c49cce9a-d6a3-4fbb-b1cf-5e9a84b92c4f",
+    "PersonName": "Sophia Martinez",
+    "Email": "sophiamartinez@example.com",
+    "DateOfBirth": "1982-12-20T00:00:00",
+    "Gender": "Female",
+    "CountryId": "b78c0f21-3179-4976-9bbf-49d5a37b234e",
+    "Address": "987 Cedar Court, Coast City",
+    "ReceiveNewsLetter": false
+  },
+  {
+    "PersonId": "d2e4f962-2e17-4a09-9d90-e29f2d9158b7",
+    "PersonName": "William Taylor",
+    "Email": "williamtaylor@example.com",
+    "DateOfBirth": "1970-09-05T00:00:00",
+    "Gender": "Male",
+    "CountryId": "78e912ac-d73d-463b-9f39-37e53ef9e8b7",
+    "Address": "147 Spruce Drive, Riverdale",
+    "ReceiveNewsLetter": true
+  },
+  {
+    "PersonId": "f3d74215-57a6-4f02-85e7-9c4e3f4b7c30",
+    "PersonName": "Isabella Johnson",
+    "Email": "isabellajohnson@example.com",
+    "DateOfBirth": "1998-04-22T00:00:00",
+    "Gender": "Female",
+    "CountryId": "56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104",
+    "Address": "852 Willow Street, Hill Valley",
+    "ReceiveNewsLetter": true
+  },
+  {
+    "PersonId": "a3d91284-dfc9-437e-9a7d-204f9fc037da",
+    "PersonName": "Oliver Wilson",
+    "Email": "oliverwilson@example.com",
+    "DateOfBirth": "1965-08-12T00:00:00",
+    "Gender": "Male",
+    "CountryId": "56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104",
+    "Address": "159 Aspen Way, Emerald City",
+    "ReceiveNewsLetter": false
+  },
+  {
+    "PersonId": "f3d02915-b7a9-4f27-b8c6-a937c4c287c6",
+    "PersonName": "Charlotte Moore",
+    "Email": "charlottemoore@example.com",
+    "DateOfBirth": "1992-01-14T00:00:00",
+    "Gender": "Female",
+    "CountryId": "b78c0f21-3179-4976-9bbf-49d5a37b234e",
+    "Address": "963 Redwood Road, Beacon Hills",
+    "ReceiveNewsLetter": true
+  }
+]

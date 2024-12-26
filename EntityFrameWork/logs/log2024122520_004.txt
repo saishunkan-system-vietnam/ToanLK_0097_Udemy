@@ -1,0 +1,10 @@
+2024-12-25 20:12:08.366 +07:00 [DBG] Hosting starting
+2024-12-25 20:12:08.551 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-25 20:12:08.552 +07:00 [INF] Hosting environment: Production
+2024-12-25 20:12:08.553 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-25 20:12:08.553 +07:00 [DBG] Hosting started
+2024-12-25 20:12:16.830 +07:00 [DBG] Connection id "0HN94SN0N902I" accepted.
+2024-12-25 20:12:16.831 +07:00 [DBG] Connection id "0HN94SN0N902I" started.
+2024-12-25 20:12:16.833 +07:00 [DBG] Connection id "0HN94SN0N902J" accepted.
+2024-12-25 20:12:16.834 +07:00 [DBG] Connection id "0HN94SN0N902J" started.
+2024-12-25 20:12:16.864 +07:00 [DBG] Connection id "0HN94SN0N902I" stopped.

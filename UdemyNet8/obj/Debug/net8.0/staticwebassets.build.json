@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "MBn+cHb0LpwcMaWGHP+B10E0pLiQvA+Ediznoiy0wDU=",
+  "Source": "UdemyNet8",
+  "BasePath": "_content/UdemyNet8",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UdemyNet8\\wwwroot",
+      "Source": "UdemyNet8",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\wwwroot\\",
+      "BasePath": "_content/UdemyNet8",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\wwwroot\\Image\\dummy.jpg",
+      "SourceId": "UdemyNet8",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\wwwroot\\",
+      "BasePath": "_content/UdemyNet8",
+      "RelativePath": "Image/dummy.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\dummy.jpg"
+    }
+  ]
+}

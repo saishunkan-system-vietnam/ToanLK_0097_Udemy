@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "zfUk8ELmUu4y0ppQUuAC+5NqZamUMU5S5hJbeYWeSck=",
+  "Source": "CrudSection",
+  "BasePath": "_content/CrudSection",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CrudSection\\wwwroot",
+      "Source": "CrudSection",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\CrudSection\\wwwroot\\",
+      "BasePath": "_content/CrudSection",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\CrudSection\\wwwroot\\css\\main.css",
+      "SourceId": "CrudSection",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\CrudSection\\wwwroot\\",
+      "BasePath": "_content/CrudSection",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+2024-12-25 20:09:53.252 +07:00 [DBG] Hosting starting
+2024-12-25 20:09:53.441 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-25 20:09:53.445 +07:00 [INF] Hosting environment: Production
+2024-12-25 20:09:53.446 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-25 20:09:53.447 +07:00 [DBG] Hosting started
+2024-12-25 20:09:58.132 +07:00 [DBG] Connection id "0HN94SLNCGDJD" accepted.
+2024-12-25 20:09:58.133 +07:00 [DBG] Connection id "0HN94SLNCGDJD" started.
+2024-12-25 20:09:58.135 +07:00 [DBG] Connection id "0HN94SLNCGDJE" accepted.
+2024-12-25 20:09:58.136 +07:00 [DBG] Connection id "0HN94SLNCGDJE" started.
+2024-12-25 20:09:58.169 +07:00 [DBG] Connection id "0HN94SLNCGDJD" stopped.
+2024-12-25 20:11:11.349 +07:00 [DBG] Connection id "0HN94SLNCGDJE" completed keep alive response.
+2024-12-25 20:11:11.373 +07:00 [DBG] Connection id "0HN94SLNCGDJE", Request id "0HN94SLNCGDJE:00000001": started reading request body.
+2024-12-25 20:11:11.374 +07:00 [DBG] Connection id "0HN94SLNCGDJE", Request id "0HN94SLNCGDJE:00000001": done reading request body.
+2024-12-25 20:12:08.288 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-25 20:12:08.470 +07:00 [INF] Now listening on: https://localhost:7274
+2024-12-25 20:12:08.471 +07:00 [INF] Now listening on: http://localhost:5138
+2024-12-25 20:12:08.472 +07:00 [DBG] Loaded hosting startup assembly EntityFrameWork
+2024-12-25 20:12:08.472 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-25 20:12:08.473 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-25 20:12:08.473 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-25 20:12:16.823 +07:00 [DBG] Connection id "0HN94SN0N902I" received FIN.
+2024-12-25 20:12:16.840 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-25 20:12:16.867 +07:00 [DBG] Connection 0HN94SN0N902J established using the following protocol: "Tls12"
+2024-12-25 20:12:16.869 +07:00 [DBG] Connection id "0HN94SN0N902I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-25 20:12:16.908 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/person/country - application/json 335
+2024-12-25 20:12:16.930 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-25 20:12:16.958 +07:00 [DBG] 2 candidate(s) found for the request path '/person/country'
+2024-12-25 20:12:16.961 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetPersonByContry (EntityFrameWork)' with route pattern 'person/country' is valid for the request path '/person/country'
+2024-12-25 20:12:16.966 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork)' with route pattern 'person/{guid}' is valid for the request path '/person/country'
+2024-12-25 20:12:16.969 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.GetPersonByContry (EntityFrameWork)'
+2024-12-25 20:12:16.977 +07:00 [INF] Request:
+Method: GET
+2024-12-25 20:12:16.980 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.GetPersonByContry (EntityFrameWork)'
+2024-12-25 20:12:17.010 +07:00 [INF] Route matched with {action = "GetPersonByContry", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPersonByContry() on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-25 20:12:17.015 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-25 20:12:17.018 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-25 20:12:17.019 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)"]
+2024-12-25 20:12:17.020 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-25 20:12:17.021 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.PersonAlwaysRunResultFilter"]
+2024-12-25 20:12:17.023 +07:00 [DBG] Executing controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-25 20:12:17.118 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-25 20:12:17.138 +07:00 [DBG] Executed controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-25 20:12:23.452 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-12-25 20:12:23.640 +07:00 [DBG] Entity Framework Core 8.0.10 initialized 'PersonDbContext' using provider 'MySql.EntityFrameworkCore:null' with options: SensitiveDataLoggingEnabled using lazy loading proxies 
+2024-12-25 20:12:23.659 +07:00 [DBG] Compiling query expression: 
+'DbSet<Country>()
+    .FirstOrDefault()'
+2024-12-25 20:12:23.743 +07:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2024-12-25 20:12:23.922 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Country>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Country.CountryId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Country.CountryName (string) Required MaxLength(200), 1] }
+        SELECT TOP(1) c.CountryId, c.CountryName
+        FROM Countries AS c), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Country>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-12-25 20:12:23.944 +07:00 [DBG] Creating DbConnection.
+2024-12-25 20:12:23.951 +07:00 [DBG] Created DbConnection. (4ms).
+2024-12-25 20:12:23.954 +07:00 [DBG] Opening connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:23.957 +07:00 [DBG] Opened connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:23.959 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-25 20:12:23.965 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-12-25 20:12:23.967 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-12-25 20:12:23.972 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CountryId`, `c`.`CountryName`
+FROM `Countries` AS `c`
+LIMIT 1
+2024-12-25 20:12:23.980 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CountryId`, `c`.`CountryName`
+FROM `Countries` AS `c`
+LIMIT 1
+2024-12-25 20:12:24.007 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Country' entity with key '{CountryId: 56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104}'.
+2024-12-25 20:12:24.022 +07:00 [DBG] Closing data reader to 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:24.026 +07:00 [DBG] A data reader for 'EntityFramework' on server 'localhost' is being disposed after spending 40ms reading results.
+2024-12-25 20:12:24.028 +07:00 [DBG] Closing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:24.035 +07:00 [DBG] Closed connection to database 'EntityFramework' on server 'localhost' (6ms).
+2024-12-25 20:12:28.134 +07:00 [DBG] The navigation 'CountryProxy.Person' is being lazy-loaded.
+2024-12-25 20:12:28.153 +07:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Where(e => object.Equals(
+        objA: EF.Property<object>(e, "CountryId"), 
+        objB: __get_Item_0))
+    .AsTracking()'
+2024-12-25 20:12:28.196 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Person.PersonId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryId (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(320), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.PersonName (string) MaxLength(60), 6], [Property: Person.ReceiveNewsLetter (bool) Required, 7], [Property: Person.TIN (string) Required ValueGenerated.OnAdd, 8] }
+        SELECT p.PersonId, p.Address, p.CountryId, p.DateOfBirth, p.Email, p.Gender, p.PersonName, p.ReceiveNewsLetter, p.TaxIDnotation
+        FROM People AS p
+        WHERE p.CountryId == @__get_Item_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-25 20:12:28.205 +07:00 [DBG] Opening connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:28.207 +07:00 [DBG] Opened connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:28.209 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-25 20:12:28.209 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-25 20:12:28.211 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-12-25 20:12:28.215 +07:00 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`
+FROM `People` AS `p`
+WHERE `p`.`CountryId` = @__get_Item_0
+2024-12-25 20:12:28.218 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__get_Item_0='56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`
+FROM `People` AS `p`
+WHERE `p`.`CountryId` = @__get_Item_0
+2024-12-25 20:12:28.238 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: 2dde44d3-7c1a-4adb-8827-a893a32e1c17}'.
+2024-12-25 20:12:28.255 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: 327c4a07-56a1-498e-8746-5403fa932a82}'.
+2024-12-25 20:12:28.256 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: 94cdfee1-d8b6-44b7-b1e9-72c005e14e5f}'.
+2024-12-25 20:12:28.257 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: 9a5f629a-31d2-4d79-b168-41f578719d3f}'.
+2024-12-25 20:12:28.258 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: a3d91284-dfc9-437e-9a7d-204f9fc037da}'.
+2024-12-25 20:12:28.259 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: cc75ac7e-1a2e-4bc7-b1cc-f728dd1df646}'.
+2024-12-25 20:12:28.260 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: d26c57ec-e44d-4570-8391-ddc4b0e58e77}'.
+2024-12-25 20:12:28.261 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: d75f8a62-bfb5-4c45-a5b3-6ad0e88a2c0a}'.
+2024-12-25 20:12:28.263 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: f3d74215-57a6-4f02-85e7-9c4e3f4b7c30}'.
+2024-12-25 20:12:28.265 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity with key '{PersonId: f4825e36-6b5e-45ec-b76f-0219a4239134}'.
+2024-12-25 20:12:28.266 +07:00 [DBG] Closing data reader to 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:28.267 +07:00 [DBG] A data reader for 'EntityFramework' on server 'localhost' is being disposed after spending 47ms reading results.
+2024-12-25 20:12:28.268 +07:00 [DBG] Closing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:12:28.268 +07:00 [DBG] Closed connection to database 'EntityFramework' on server 'localhost' (0ms).

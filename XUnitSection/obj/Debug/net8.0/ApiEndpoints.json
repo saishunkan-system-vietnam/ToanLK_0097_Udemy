@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "XUnitSection.Controller.BookController",
+    "Method": "AddBook",
+    "RelativePath": "add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "XUnitSection.Model.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

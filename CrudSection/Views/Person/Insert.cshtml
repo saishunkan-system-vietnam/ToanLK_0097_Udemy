@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Create Person";
+}
+
+<div class="pb-2">
+   <a href="~/person/index" class="btn btn-secondary">Person List</a>
+</div>
+<form action="~/person/insert" method="POST">
+    <div class="mb-3">
+    <label for="Name" class="form-label">Person Name</label>
+    <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" name="Name">
+    </div>
+    <div class="mb-3">
+    <label for="Age" class="form-label">Age</label>
+    <input type="number" class="form-control" id="Age" name="Age">
+    </div>
+    <div class="mb-3">
+    <label for="Job" class="form-label">Job</label>
+    <input type="text" class="form-control" id="Job" name="Job">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

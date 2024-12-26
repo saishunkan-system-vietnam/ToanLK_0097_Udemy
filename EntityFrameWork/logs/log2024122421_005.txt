@@ -1,0 +1,14 @@
+2024-12-24 21:58:30.041 +07:00 [DBG] Hosting starting
+2024-12-24 21:58:30.284 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 21:58:30.285 +07:00 [INF] Hosting environment: Production
+2024-12-24 21:58:30.286 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-24 21:58:30.287 +07:00 [DBG] Hosting started
+2024-12-24 21:58:41.009 +07:00 [DBG] Connection id "0HN945DQ4PE02" accepted.
+2024-12-24 21:58:41.018 +07:00 [DBG] Connection id "0HN945DQ4PE02" started.
+2024-12-24 21:58:41.025 +07:00 [DBG] Connection id "0HN945DQ4PE03" accepted.
+2024-12-24 21:58:41.026 +07:00 [DBG] Connection id "0HN945DQ4PE03" started.
+2024-12-24 21:58:41.072 +07:00 [DBG] Connection id "0HN945DQ4PE02" stopped.
+2024-12-24 21:58:41.338 +07:00 [DBG] Connection id "0HN945DQ4PE03", Request id "0HN945DQ4PE03:00000001": started reading request body.
+2024-12-24 21:58:41.339 +07:00 [DBG] Connection id "0HN945DQ4PE03", Request id "0HN945DQ4PE03:00000001": done reading request body.
+2024-12-24 21:58:41.360 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'EntityFrameWork.Entities.Person'
+2024-12-24 21:58:57.573 +07:00 [DBG] Connection id "0HN945DQ4PE03" completed keep alive response.

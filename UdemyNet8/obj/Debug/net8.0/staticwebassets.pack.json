@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\wwwroot\\Image\\dummy.jpg",
+      "PackagePath": "staticwebassets\\Image\\dummy.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UdemyNet8.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.UdemyNet8.props",
+      "PackagePath": "build\\UdemyNet8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.UdemyNet8.props",
+      "PackagePath": "buildMultiTargeting\\UdemyNet8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.UdemyNet8.props",
+      "PackagePath": "buildTransitive\\UdemyNet8.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

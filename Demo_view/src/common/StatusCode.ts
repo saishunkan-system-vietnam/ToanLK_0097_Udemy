@@ -1,0 +1,6 @@
+export const STATUS_CODE = {
+  CONFLICT:409,
+  OK:200,
+  BAD_REQUEST:400,
+  UNAUTHOR:401
+}

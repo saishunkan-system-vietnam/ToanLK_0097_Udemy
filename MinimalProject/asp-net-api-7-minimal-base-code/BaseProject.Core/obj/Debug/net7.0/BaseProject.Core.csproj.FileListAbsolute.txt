@@ -1,0 +1,87 @@
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.deps.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.AssemblyReference.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfoInputs.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfo.cs
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\refint\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\ref\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CopyComplete
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.deps.json
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.dll
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.pdb
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.dll
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+D:\New folder\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.pdb
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.AssemblyReference.cache
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfoInputs.cache
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfo.cs
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CoreCompileInputs.cache
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CopyComplete
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.dll
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\refint\BaseProject.Core.dll
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.pdb
+D:\New folder\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\ref\BaseProject.Core.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.deps.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.AssemblyReference.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfoInputs.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfo.cs
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CoreCompileInputs.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CopyComplete
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\refint\BaseProject.Core.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.Core\obj\Debug\net7.0\ref\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.deps.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.AssemblyReference.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfoInputs.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfo.cs
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.sourcelink.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProj.3B116C1F.Up2Date
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\refint\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\ref\BaseProject.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.deps.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Core.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\bin\Debug\net7.0\BaseProject.Shared.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.AssemblyReference.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfoInputs.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.AssemblyInfo.cs
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.csproj.CoreCompileInputs.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.sourcelink.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProj.3B116C1F.Up2Date
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\refint\BaseProject.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\BaseProject.Core.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.Core\obj\Debug\net7.0\ref\BaseProject.Core.dll

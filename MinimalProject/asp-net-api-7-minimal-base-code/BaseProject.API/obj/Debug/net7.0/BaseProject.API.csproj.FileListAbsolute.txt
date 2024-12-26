@@ -1,0 +1,678 @@
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\appsettings.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.API.exe
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.API.deps.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.API.runtimeconfig.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.API.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.AssemblyReference.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfoInputs.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfo.cs
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CoreCompileInputs.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.BaseProject.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.build.BaseProject.API.props
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BaseProject.API.props
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BaseProject.API.props
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\scopedcss\bundle\BaseProject.API.styles.css
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CopyComplete
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\refint\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.genruntimeconfig.cache
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\ref\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.pdb
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BCrypt.Net.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Gcef.Data.DataEngine.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Gcef.Data.ExpressionInfo.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Gcef.Data.VBFunctionLib.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Win.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Chart.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Chart.Win.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.DataProviders.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Document.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Document.Drawing.Gc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Document.Drawing.Gdi.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Drawing.Gc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Export.Tiff.Section.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Rdl.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Rendering.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Scripting.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.DataVisualization.Chart.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.Documents.DX.Windows.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.Documents.Imaging.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\GrapeCity.Documents.Imaging.Windows.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\MailKit.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\MimeKit.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\NETCore.MailKit.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Data.Odbc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Data.OleDb.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.Private.ServiceModel.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Win.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Chart.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Chart.Win.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ja\GrapeCity.ActiveReports.Core.Document.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Core.Document.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh\GrapeCity.DataVisualization.Chart.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ja\GrapeCity.Documents.Imaging.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ja\GrapeCity.Documents.Imaging.Windows.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\AWSSDK.S3.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\appsettings.Development.json
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\appsettings.json
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.exe
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.deps.json
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.runtimeconfig.json
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.pdb
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AutoMapper.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AWSSDK.Core.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AWSSDK.Extensions.NETCore.Setup.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AWSSDK.S3.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BCrypt.Net.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Gcef.Data.DataEngine.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Gcef.Data.ExpressionInfo.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Gcef.Data.VBFunctionLib.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Google.Protobuf.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Win.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Chart.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Chart.Win.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.DataProviders.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Document.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Document.Drawing.Gc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Document.Drawing.Gdi.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Drawing.Gc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Export.Tiff.Section.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Rdl.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Rendering.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.ActiveReports.Core.Scripting.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.DataVisualization.Chart.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.Documents.DX.Windows.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.Documents.Imaging.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\GrapeCity.Documents.Imaging.Windows.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MailKit.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MimeKit.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MySql.Data.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MySqlConnector.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\NETCore.MailKit.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.CodeDom.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Data.Odbc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Data.OleDb.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Private.ServiceModel.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.ServiceModel.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ZstdSharp.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Win.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Chart.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Chart.Win.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ja\GrapeCity.ActiveReports.Core.Document.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-CN\GrapeCity.ActiveReports.Core.Document.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh\GrapeCity.DataVisualization.Chart.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ja\GrapeCity.Documents.Imaging.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ja\GrapeCity.Documents.Imaging.Windows.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\freebsd\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.pdb
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.pdb
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.AssemblyReference.cache
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfoInputs.cache
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfo.cs
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CoreCompileInputs.cache
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.BaseProject.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.build.BaseProject.API.props
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BaseProject.API.props
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BaseProject.API.props
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets.pack.json
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets.build.json
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets.development.json
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\scopedcss\bundle\BaseProject.API.styles.css
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CopyComplete
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.dll
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\refint\BaseProject.API.dll
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.pdb
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.genruntimeconfig.cache
+D:\New folder\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\ref\BaseProject.API.dll
+D:\New folder\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.staticwebassets.runtime.json
+C:\Users\ToanLK\source\repos\BaseProject\BaseProject.API\bin\Debug\net7.0\BaseProject.API.staticwebassets.runtime.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\appsettings.Development.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\appsettings.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.staticwebassets.runtime.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.exe
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.deps.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.runtimeconfig.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.API.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AutoMapper.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AWSSDK.Core.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AWSSDK.Extensions.NETCore.Setup.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\AWSSDK.S3.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BCrypt.Net.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Gcef.Data.DataEngine.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Gcef.Data.ExpressionInfo.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Gcef.Data.VBFunctionLib.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Google.Protobuf.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MailKit.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MimeKit.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MySql.Data.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\MySqlConnector.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\NETCore.MailKit.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\ZstdSharp.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.AssemblyReference.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfoInputs.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfo.cs
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CoreCompileInputs.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cs
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.BaseProject.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.build.BaseProject.API.props
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BaseProject.API.props
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BaseProject.API.props
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets.pack.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets.build.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\staticwebassets.development.json
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\scopedcss\bundle\BaseProject.API.styles.css
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CopyComplete
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\refint\BaseProject.API.dll
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.pdb
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\BaseProject.API.genruntimeconfig.cache
+D:\code\last-u\back-end\base-dot-net-project\BaseProject.API\obj\Debug\net7.0\ref\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\appsettings.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.staticwebassets.runtime.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.exe
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.deps.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.runtimeconfig.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AWSSDK.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AWSSDK.Extensions.NETCore.Setup.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AWSSDK.S3.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BCrypt.Net.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Gcef.Data.DataEngine.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Gcef.Data.ExpressionInfo.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Gcef.Data.VBFunctionLib.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MailKit.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MimeKit.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\NETCore.MailKit.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.AssemblyReference.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfoInputs.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfo.cs
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CoreCompileInputs.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.sourcelink.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.BaseProject.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.build.BaseProject.API.props
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BaseProject.API.props
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BaseProject.API.props
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\scopedcss\bundle\BaseProject.API.styles.css
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProj.5ACDA1A6.Up2Date
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\refint\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.genruntimeconfig.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\ref\BaseProject.API.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Castle.Core.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\appsettings.Development.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\appsettings.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.staticwebassets.runtime.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.exe
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.deps.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.runtimeconfig.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.API.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AutoMapper.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AWSSDK.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AWSSDK.Extensions.NETCore.Setup.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\AWSSDK.S3.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BCrypt.Net.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Castle.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Gcef.Data.DataEngine.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Gcef.Data.ExpressionInfo.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Gcef.Data.VBFunctionLib.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Google.Protobuf.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MailKit.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MimeKit.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MySql.Data.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\MySqlConnector.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\NETCore.MailKit.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.AspNetCore.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Serilog.Sinks.File.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.IO.Pipelines.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Text.Json.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\ZstdSharp.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Core.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Infrastructure.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\bin\Debug\net7.0\BaseProject.Shared.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.AssemblyReference.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfoInputs.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.AssemblyInfo.cs
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.csproj.CoreCompileInputs.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cs
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.MvcApplicationPartsAssemblyInfo.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.sourcelink.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets.build.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets.development.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.BaseProject.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.build.BaseProject.API.props
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BaseProject.API.props
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BaseProject.API.props
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\staticwebassets.pack.json
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\scopedcss\bundle\BaseProject.API.styles.css
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProj.5ACDA1A6.Up2Date
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\refint\BaseProject.API.dll
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.pdb
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\BaseProject.API.genruntimeconfig.cache
+D:\code\UdemyNet8\Net8Udemy\MinimalProject\asp-net-api-7-minimal-base-code\BaseProject.API\obj\Debug\net7.0\ref\BaseProject.API.dll

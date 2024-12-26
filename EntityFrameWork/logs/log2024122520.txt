@@ -1,0 +1,321 @@
+2024-12-25 20:02:52.160 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-25 20:02:52.384 +07:00 [INF] Now listening on: https://localhost:7274
+2024-12-25 20:02:52.386 +07:00 [INF] Now listening on: http://localhost:5138
+2024-12-25 20:02:52.386 +07:00 [DBG] Loaded hosting startup assembly EntityFrameWork
+2024-12-25 20:02:52.387 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-25 20:02:52.387 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-25 20:02:52.388 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-25 20:02:56.839 +07:00 [DBG] Connection id "0HN94SHPQRGT1" received FIN.
+2024-12-25 20:02:56.857 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-25 20:02:56.877 +07:00 [DBG] Connection 0HN94SHPQRGT2 established using the following protocol: "Tls12"
+2024-12-25 20:02:56.888 +07:00 [DBG] Connection id "0HN94SHPQRGT1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-25 20:02:56.912 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/person/2dde44d3-7c1a-4adb-8827-a893a32e1c17 - application/json 335
+2024-12-25 20:02:56.933 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-25 20:02:56.959 +07:00 [DBG] 1 candidate(s) found for the request path '/person/2dde44d3-7c1a-4adb-8827-a893a32e1c17'
+2024-12-25 20:02:56.963 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork)' with route pattern 'person/{guid}' is valid for the request path '/person/2dde44d3-7c1a-4adb-8827-a893a32e1c17'
+2024-12-25 20:02:56.966 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork)'
+2024-12-25 20:02:56.975 +07:00 [INF] Request:
+Method: GET
+2024-12-25 20:02:56.977 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork)'
+2024-12-25 20:02:57.010 +07:00 [INF] Route matched with {action = "GetById", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(System.Guid) on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-25 20:02:57.015 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-25 20:02:57.017 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-25 20:02:57.019 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)"]
+2024-12-25 20:02:57.021 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-25 20:02:57.022 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.PersonAlwaysRunResultFilter"]
+2024-12-25 20:02:57.025 +07:00 [DBG] Executing controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-25 20:02:57.248 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-25 20:02:57.275 +07:00 [DBG] Executed controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-25 20:02:57.340 +07:00 [DBG] Attempting to bind parameter 'guid' of type 'System.Guid' ...
+2024-12-25 20:02:57.345 +07:00 [DBG] Attempting to bind parameter 'guid' of type 'System.Guid' using the name 'guid' in request data ...
+2024-12-25 20:02:57.349 +07:00 [DBG] Done attempting to bind parameter 'guid' of type 'System.Guid'.
+2024-12-25 20:02:57.351 +07:00 [DBG] Done attempting to bind parameter 'guid' of type 'System.Guid'.
+2024-12-25 20:02:57.353 +07:00 [DBG] Attempting to validate the bound parameter 'guid' of type 'System.Guid' ...
+2024-12-25 20:02:57.356 +07:00 [DBG] Done attempting to validate the bound parameter 'guid' of type 'System.Guid'.
+2024-12-25 20:03:00.287 +07:00 [DBG] Entity Framework Core 8.0.10 initialized 'PersonDbContext' using provider 'MySql.EntityFrameworkCore:null' with options: using lazy loading proxies 
+2024-12-25 20:03:00.314 +07:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .FirstOrDefault(item => (Guid?)item.PersonId == __id_0)'
+2024-12-25 20:03:00.583 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Person.PersonId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryId (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(320), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.PersonName (string) MaxLength(60), 6], [Property: Person.ReceiveNewsLetter (bool) Required, 7], [Property: Person.TIN (string) Required ValueGenerated.OnAdd, 8] }
+        SELECT TOP(1) p.PersonId, p.Address, p.CountryId, p.DateOfBirth, p.Email, p.Gender, p.PersonName, p.ReceiveNewsLetter, p.TaxIDnotation
+        FROM People AS p
+        WHERE p.PersonId == @__id_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-12-25 20:03:00.606 +07:00 [DBG] Creating DbConnection.
+2024-12-25 20:03:00.611 +07:00 [DBG] Created DbConnection. (2ms).
+2024-12-25 20:03:00.613 +07:00 [DBG] Opening connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:00.629 +07:00 [DBG] Opened connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:00.633 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-25 20:03:00.637 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-12-25 20:03:00.641 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-12-25 20:03:00.646 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`
+FROM `People` AS `p`
+WHERE `p`.`PersonId` = @__id_0
+LIMIT 1
+2024-12-25 20:03:00.658 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`
+FROM `People` AS `p`
+WHERE `p`.`PersonId` = @__id_0
+LIMIT 1
+2024-12-25 20:03:00.683 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:00.721 +07:00 [DBG] Closing data reader to 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:00.726 +07:00 [DBG] A data reader for 'EntityFramework' on server 'localhost' is being disposed after spending 62ms reading results.
+2024-12-25 20:03:00.728 +07:00 [DBG] Closing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:00.733 +07:00 [DBG] Closed connection to database 'EntityFramework' on server 'localhost' (5ms).
+2024-12-25 20:03:02.834 +07:00 [DBG] The navigation 'PersonProxy.Country' is being lazy-loaded.
+2024-12-25 20:03:02.845 +07:00 [DBG] Compiling query expression: 
+'DbSet<Country>()
+    .Where(e => object.Equals(
+        objA: EF.Property<object>(e, "CountryId"), 
+        objB: __get_Item_0))
+    .AsTracking()
+    .FirstOrDefault()'
+2024-12-25 20:03:02.874 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Country>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Country.CountryId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Country.CountryName (string) Required MaxLength(200), 1] }
+        SELECT TOP(1) c.CountryId, c.CountryName
+        FROM Countries AS c
+        WHERE c.CountryId == @__get_Item_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Country>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-12-25 20:03:02.877 +07:00 [DBG] Opening connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:02.879 +07:00 [DBG] Opened connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:02.880 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-25 20:03:02.881 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-12-25 20:03:02.883 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-12-25 20:03:02.884 +07:00 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CountryId`, `c`.`CountryName`
+FROM `Countries` AS `c`
+WHERE `c`.`CountryId` = @__get_Item_0
+LIMIT 1
+2024-12-25 20:03:02.886 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`CountryId`, `c`.`CountryName`
+FROM `Countries` AS `c`
+WHERE `c`.`CountryId` = @__get_Item_0
+LIMIT 1
+2024-12-25 20:03:02.895 +07:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:02.904 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:02.907 +07:00 [DBG] Closing data reader to 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:02.907 +07:00 [DBG] A data reader for 'EntityFramework' on server 'localhost' is being disposed after spending 19ms reading results.
+2024-12-25 20:03:02.909 +07:00 [DBG] Closing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:02.910 +07:00 [DBG] Closed connection to database 'EntityFramework' on server 'localhost' (0ms).
+2024-12-25 20:03:09.943 +07:00 [DBG] The navigation 'CountryProxy.Person' is being lazy-loaded.
+2024-12-25 20:03:09.946 +07:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Where(e => object.Equals(
+        objA: EF.Property<object>(e, "CountryId"), 
+        objB: __get_Item_0))
+    .AsTracking()'
+2024-12-25 20:03:09.955 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Person.PersonId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryId (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(320), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.PersonName (string) MaxLength(60), 6], [Property: Person.ReceiveNewsLetter (bool) Required, 7], [Property: Person.TIN (string) Required ValueGenerated.OnAdd, 8] }
+        SELECT p.PersonId, p.Address, p.CountryId, p.DateOfBirth, p.Email, p.Gender, p.PersonName, p.ReceiveNewsLetter, p.TaxIDnotation
+        FROM People AS p
+        WHERE p.CountryId == @__get_Item_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-25 20:03:09.959 +07:00 [DBG] Opening connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:09.960 +07:00 [DBG] Opened connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:09.961 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-25 20:03:09.962 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-25 20:03:09.963 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-25 20:03:09.963 +07:00 [DBG] Executing DbCommand [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`
+FROM `People` AS `p`
+WHERE `p`.`CountryId` = @__get_Item_0
+2024-12-25 20:03:09.967 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`
+FROM `People` AS `p`
+WHERE `p`.`CountryId` = @__get_Item_0
+2024-12-25 20:03:09.971 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.973 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.974 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.975 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.977 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.978 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.979 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.980 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.984 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-25 20:03:09.987 +07:00 [DBG] Closing data reader to 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:09.988 +07:00 [DBG] A data reader for 'EntityFramework' on server 'localhost' is being disposed after spending 18ms reading results.
+2024-12-25 20:03:09.989 +07:00 [DBG] Closing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:09.990 +07:00 [DBG] Closed connection to database 'EntityFramework' on server 'localhost' (0ms).
+2024-12-25 20:03:16.521 +07:00 [INF] Executing JsonResult, writing value of type 'Castle.Proxies.PersonProxy'.
+2024-12-25 20:03:16.563 +07:00 [INF] Executed action EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork) in 19536.6558ms
+2024-12-25 20:03:16.566 +07:00 [INF] Executed endpoint 'EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork)'
+2024-12-25 20:03:16.568 +07:00 [INF] RequestBody: [Not consumed by app]
+2024-12-25 20:03:16.576 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Country.Person.Country.Person.Country.Person.Country.Person.Country.Person.Country.Person.Country.Person.Country.Person.Country.Person.Country.Person.Country.CountryId.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-25 20:03:16.719 +07:00 [DBG] 2 candidate(s) found for the request path '/person/error'
+2024-12-25 20:03:16.722 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetError (EntityFrameWork)' with route pattern 'person/error' is valid for the request path '/person/error'
+2024-12-25 20:03:16.723 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetById (EntityFrameWork)' with route pattern 'person/{guid}' is valid for the request path '/person/error'
+2024-12-25 20:03:16.725 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.GetError (EntityFrameWork)'
+2024-12-25 20:03:16.726 +07:00 [INF] Request:
+Method: GET
+2024-12-25 20:03:16.727 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.GetError (EntityFrameWork)'
+2024-12-25 20:03:16.729 +07:00 [INF] Route matched with {action = "GetError", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetError() on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-25 20:03:16.736 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-25 20:03:16.738 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-25 20:03:16.739 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)"]
+2024-12-25 20:03:16.742 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-25 20:03:16.743 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.PersonAlwaysRunResultFilter"]
+2024-12-25 20:03:16.745 +07:00 [DBG] Executing controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-25 20:03:16.746 +07:00 [DBG] Executed controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-25 20:03:16.762 +07:00 [INF] Executing JsonResult, writing value of type 'System.String'.
+2024-12-25 20:03:16.776 +07:00 [INF] Executed action EntityFrameWork.Controller.PersonController.GetError (EntityFrameWork) in 30.5106ms
+2024-12-25 20:03:16.777 +07:00 [INF] Executed endpoint 'EntityFrameWork.Controller.PersonController.GetError (EntityFrameWork)'
+2024-12-25 20:03:16.778 +07:00 [INF] RequestBody: [Not consumed by app]
+2024-12-25 20:03:16.792 +07:00 [DBG] 'PersonDbContext' disposed.
+2024-12-25 20:03:16.805 +07:00 [DBG] Disposing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-25 20:03:16.810 +07:00 [DBG] Disposed connection to database 'EntityFramework' on server 'localhost' (4ms).
+2024-12-25 20:03:16.814 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7274/person/2dde44d3-7c1a-4adb-8827-a893a32e1c17 - 500 null application/json; charset=utf-8 19905.9215ms

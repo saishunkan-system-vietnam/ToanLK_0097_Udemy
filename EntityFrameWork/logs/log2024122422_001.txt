@@ -1,0 +1,94 @@
+2024-12-24 22:00:57.681 +07:00 [DBG] Hosting starting
+2024-12-24 22:00:57.828 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 22:00:57.829 +07:00 [INF] Hosting environment: Production
+2024-12-24 22:00:57.829 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-24 22:00:57.830 +07:00 [DBG] Hosting started
+2024-12-24 22:01:00.651 +07:00 [DBG] Connection id "0HN945F3OLRON" accepted.
+2024-12-24 22:01:00.652 +07:00 [DBG] Connection id "0HN945F3OLRON" started.
+2024-12-24 22:01:00.654 +07:00 [DBG] Connection id "0HN945F3OLROO" accepted.
+2024-12-24 22:01:00.655 +07:00 [DBG] Connection id "0HN945F3OLROO" started.
+2024-12-24 22:01:00.677 +07:00 [DBG] Connection id "0HN945F3OLRON" stopped.
+2024-12-24 22:01:00.914 +07:00 [DBG] Connection id "0HN945F3OLROO", Request id "0HN945F3OLROO:00000001": started reading request body.
+2024-12-24 22:01:00.915 +07:00 [DBG] Connection id "0HN945F3OLROO", Request id "0HN945F3OLROO:00000001": done reading request body.
+2024-12-24 22:01:00.932 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'EntityFrameWork.Entities.Person'
+2024-12-24 22:01:09.101 +07:00 [DBG] Connection id "0HN945F3OLROO" completed keep alive response.
+2024-12-24 22:07:17.490 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-24 22:07:17.833 +07:00 [INF] Now listening on: https://localhost:7274
+2024-12-24 22:07:17.867 +07:00 [INF] Now listening on: http://localhost:5138
+2024-12-24 22:07:17.872 +07:00 [DBG] Loaded hosting startup assembly EntityFrameWork
+2024-12-24 22:07:17.874 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-24 22:07:17.875 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-24 22:07:17.876 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-24 22:07:30.518 +07:00 [DBG] Connection id "0HN945INUPUUF" received FIN.
+2024-12-24 22:07:30.544 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-24 22:07:30.566 +07:00 [DBG] Connection 0HN945INUPUUG established using the following protocol: "Tls12"
+2024-12-24 22:07:30.577 +07:00 [DBG] Connection id "0HN945INUPUUF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-24 22:07:30.606 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:7274/person/insert - application/json 335
+2024-12-24 22:07:30.627 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-24 22:07:30.645 +07:00 [DBG] 1 candidate(s) found for the request path '/person/insert'
+2024-12-24 22:07:30.654 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.InsertPerson (EntityFrameWork)' with route pattern 'person/insert' is valid for the request path '/person/insert'
+2024-12-24 22:07:30.655 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.InsertPerson (EntityFrameWork)'
+2024-12-24 22:07:30.665 +07:00 [INF] Request:
+Method: POST
+2024-12-24 22:07:30.668 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.InsertPerson (EntityFrameWork)'
+2024-12-24 22:07:30.687 +07:00 [INF] Route matched with {action = "InsertPerson", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult InsertPerson(EntityFrameWork.Entities.Person) on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-24 22:07:30.690 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-24 22:07:30.691 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-24 22:07:30.693 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 2)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)"]
+2024-12-24 22:07:30.694 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-24 22:07:30.695 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.PersonAlwaysRunResultFilter"]
+2024-12-24 22:07:30.702 +07:00 [DBG] Executing controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-24 22:07:30.787 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-24 22:07:30.804 +07:00 [DBG] Executed controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-24 22:07:30.814 +07:00 [DBG] Attempting to bind parameter 'person' of type 'EntityFrameWork.Entities.Person' ...
+2024-12-24 22:07:30.819 +07:00 [DBG] Attempting to bind parameter 'person' of type 'EntityFrameWork.Entities.Person' using the name '' in request data ...
+2024-12-24 22:07:30.820 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-12-24 22:07:30.842 +07:00 [INF] RequestBody: {
+    "personId": "a3d91284-dfc9-437e-9a7d-204f9fc037da",
+    "personName": null,
+    "email": "oliverwilson@example.com",
+    "dateOfBirth": "2018-03-29T13:34:00.000",
+    "gender": "Male",
+    "countryId": "56a49b0c-3e0d-4a4f-9e25-6a7c57d1f104",
+    "address": "159 Aspen Way, Emerald City",
+    "receiveNewsLetter": false
+}
+2024-12-24 22:07:30.856 +07:00 [DBG] Done attempting to bind parameter 'person' of type 'EntityFrameWork.Entities.Person'.
+2024-12-24 22:07:30.857 +07:00 [DBG] Done attempting to bind parameter 'person' of type 'EntityFrameWork.Entities.Person'.
+2024-12-24 22:07:30.857 +07:00 [DBG] Attempting to validate the bound parameter 'person' of type 'EntityFrameWork.Entities.Person' ...
+2024-12-24 22:07:30.873 +07:00 [DBG] Done attempting to validate the bound parameter 'person' of type 'EntityFrameWork.Entities.Person'.
+2024-12-24 22:07:34.618 +07:00 [INF] Executed action EntityFrameWork.Controller.PersonController.InsertPerson (EntityFrameWork) in 3914.7815ms
+2024-12-24 22:07:34.621 +07:00 [INF] Executed endpoint 'EntityFrameWork.Controller.PersonController.InsertPerson (EntityFrameWork)'
+2024-12-24 22:07:34.632 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Exceptions.InvalidPersonIDException: given name doesn't exist
+   at EntityFrameWork.Controller.PersonController.InsertPerson(Person person) in D:\code\UdemyNet8\Net8Udemy\EntityFrameWork\Controller\PersonController.cs:line 50
+   at lambda_method6(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2024-12-24 22:07:34.652 +07:00 [DBG] 1 candidate(s) found for the request path '/person/error'
+2024-12-24 22:07:34.653 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2024-12-24 22:07:34.654 +07:00 [INF] Request:
+Method: POST
+2024-12-24 22:07:34.654 +07:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-12-24 22:07:34.655 +07:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-12-24 22:07:34.655 +07:00 [INF] RequestBody: [Not consumed by app]
+2024-12-24 22:07:34.663 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7274/person/insert - 405 0 null 4064.1481ms

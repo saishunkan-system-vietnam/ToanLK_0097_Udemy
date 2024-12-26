@@ -1,0 +1,28 @@
+﻿@page
+@model Other.Views.Home.TestHereModel
+@{
+    List<Bullet> list = new List<Bullet>()
+    {
+        new Bullet(1,"First Bullet", 1),
+        new Bullet(1,"Secound Bullet", 2),
+        new Bullet(1,"Third Bullet", 3),
+        new Bullet(1,"Fourth Bullet", 3),
+    };
+}
+
+@for(var i = 0; i < list.Count; i++)
+{
+    <div class="block">
+        <span>@list[i].Id</span>_<span>@list[i].Name </span>
+    @if(i )
+    </div>
+}
+
+<style>
+.block
+{
+    border:2px solid red;
+    background-color: yellow;
+    margin:12px
+}
+</style>

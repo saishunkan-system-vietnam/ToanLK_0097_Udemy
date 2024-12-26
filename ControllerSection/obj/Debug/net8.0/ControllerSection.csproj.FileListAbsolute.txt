@@ -1,0 +1,12 @@
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.AssemblyInfoInputs.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.AssemblyInfo.cs
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.csproj.CoreCompileInputs.cache
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.sourcelink.json
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\bin\Debug\net8.0\ControllerSection.deps.json
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\bin\Debug\net8.0\ControllerSection.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\bin\Debug\net8.0\ControllerSection.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\refint\ControllerSection.dll
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ControllerSection.pdb
+C:\Users\ToanLK\source\repos\UdemyNet8\ControllerSection\obj\Debug\net8.0\ref\ControllerSection.dll

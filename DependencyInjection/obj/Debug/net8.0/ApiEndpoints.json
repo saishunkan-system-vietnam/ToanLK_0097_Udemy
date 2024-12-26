@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "DependencyInjection.Controllers.SongController",
+    "Method": "GetSong",
+    "RelativePath": "Song",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

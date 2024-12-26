@@ -1,0 +1,1172 @@
+[
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "Update",
+    "RelativePath": "api/account/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modifiedUser",
+        "Type": "BaseProject.Shared.Entity.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "GetMe",
+    "RelativePath": "api/account/get-me",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[BaseProject.Shared.Entity.Account, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "Login",
+    "RelativePath": "api/account/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginAccount",
+        "Type": "BaseProject.Shared.Entity.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.Response",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "ChangePassword",
+    "RelativePath": "api/account/password",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPassword",
+        "Type": "BaseProject.Shared.Modal.Dto.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "RefreshToken",
+    "RelativePath": "api/account/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "BaseProject.Shared.Modal.Dto.TokenDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.Response",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "SignUp",
+    "RelativePath": "api/account/sign-up",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newAccount",
+        "Type": "BaseProject.Shared.Entity.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.Response",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.AccountModule",
+    "Method": "VerifyAccount",
+    "RelativePath": "api/account/verify-account/{verifyToken}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verifyToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.Response",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Accounts"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "GetProductByAccount",
+    "RelativePath": "api/cart/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.Cart, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "DeleteByCartId",
+    "RelativePath": "api/cart/{cartId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "UpdateMountCart",
+    "RelativePath": "api/cart/{cartId}/{increaseStep}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "increaseStep",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/cart/{cartId}/{status}/{delFlag}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "delFlag",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "InsertProductToCart",
+    "RelativePath": "api/cart/{productId}/{quantity}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "GetByFinished",
+    "RelativePath": "api/cart/get-finished",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.Cart, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "GetByInOrder",
+    "RelativePath": "api/cart/get-in-order",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.Cart, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CartModule",
+    "Method": "ChangeSelectedById",
+    "RelativePath": "api/cart/selected/{cartId}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "cart"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.CommentModule",
+    "Method": "SendMessage",
+    "RelativePath": "api/comment-sender/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "CommentSender"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "GetAllNews",
+    "RelativePath": "api/news/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.News, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "AddType",
+    "RelativePath": "api/news/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newInsert",
+        "Type": "BaseProject.Shared.Modal.Dto.NewsInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "Update",
+    "RelativePath": "api/news/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modifiedNews",
+        "Type": "BaseProject.Shared.Modal.Dto.NewsInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "DeleteType",
+    "RelativePath": "api/news/{guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "GetById",
+    "RelativePath": "api/news/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[BaseProject.Shared.Modal.Entity.News, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "DeleteRange",
+    "RelativePath": "api/news/delete",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.NewsModule",
+    "Method": "GetNewestPost",
+    "RelativePath": "api/news/newest/{mount}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mount",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.News, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/product/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "Update",
+    "RelativePath": "api/product/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productUpdateDto",
+        "Type": "BaseProject.Shared.Modal.Dto.ProductUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetById",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[BaseProject.Shared.Entity.Product, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.Response",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetByPage",
+    "RelativePath": "api/product/{numberOfPage}/{mountOfItems}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numberOfPage",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "mountOfItems",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BaseProject.Shared.Entity.Product, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "AddProductNewTech",
+    "RelativePath": "api/product/add",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "BaseProject.Shared.Modal.Dto.ProductInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.Response",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/product/cache",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "DeleteRange",
+    "RelativePath": "api/product/delete",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetByType",
+    "RelativePath": "api/product/get-by-type/{id}/{quantity}/{page}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[BaseProject.Shared.Modal.Dto.ProductPagingByType, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetNewProductList",
+    "RelativePath": "api/product/get-new",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Entity.Product, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetRelatedProduct",
+    "RelativePath": "api/product/get-related/{keyword}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "keyword",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Entity.Product, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "GetByQuantity",
+    "RelativePath": "api/product/newest/{quantity}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Entity.Product, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "TestSendingEmail",
+    "RelativePath": "api/product/send-mail",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.ProductModule",
+    "Method": "uploadFile",
+    "RelativePath": "api/product/upload-file",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Product"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.SettingModule",
+    "Method": "GetAll",
+    "RelativePath": "api/setting/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.Setting, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "setting"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.SettingModule",
+    "Method": "AddSetting",
+    "RelativePath": "api/setting/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slideShowImages",
+        "Type": "BaseProject.Shared.Modal.Dto.AddLandingPageSlideImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "setting"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.TypeModule",
+    "Method": "GetAllType",
+    "RelativePath": "api/type/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.Type, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.TypeModule",
+    "Method": "AddType",
+    "RelativePath": "api/type/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addedType",
+        "Type": "BaseProject.Shared.Modal.Dto.TypeInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.TypeModule",
+    "Method": "UpdateFlagShow",
+    "RelativePath": "api/type/",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDto",
+        "Type": "BaseProject.Shared.Modal.Dto.TypeUpdateFlagShowDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.TypeModule",
+    "Method": "DeleteType",
+    "RelativePath": "api/type/{guid}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "guid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.TypeModule",
+    "Method": "GetByShowInLandingPage",
+    "RelativePath": "api/type/get-by-landing-page",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Collections.Generic.List\u00601[[BaseProject.Shared.Modal.Entity.Type, BaseProject.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  },
+  {
+    "ContainingType": "BaseProject.API.Module.TypeModule",
+    "Method": "Update",
+    "RelativePath": "api/type/update",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modifiedType",
+        "Type": "BaseProject.Shared.Modal.Dto.TypeInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BaseProject.Shared.ResponseObject.R\u00601[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "type"
+    ]
+  }
+]

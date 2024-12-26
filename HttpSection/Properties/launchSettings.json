@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "HttpSection": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "hotReloadEnabled": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53641;http://localhost:53642"
+    }
+  }
+}

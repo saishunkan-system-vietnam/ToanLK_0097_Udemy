@@ -1,0 +1,5 @@
+2024-12-24 19:59:41.910 +07:00 [DBG] Hosting starting
+2024-12-24 19:59:42.028 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 19:59:42.030 +07:00 [INF] Hosting environment: Development
+2024-12-24 19:59:42.030 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-24 19:59:42.031 +07:00 [DBG] Hosting started

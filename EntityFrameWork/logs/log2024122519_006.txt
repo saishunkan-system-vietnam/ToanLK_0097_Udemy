@@ -1,0 +1,13 @@
+2024-12-25 19:57:07.279 +07:00 [DBG] Hosting starting
+2024-12-25 19:57:07.519 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-25 19:57:07.523 +07:00 [INF] Hosting environment: Production
+2024-12-25 19:57:07.527 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-25 19:57:07.528 +07:00 [DBG] Hosting started
+2024-12-25 19:57:08.783 +07:00 [DBG] Connection id "0HN94SEI3ERDT" accepted.
+2024-12-25 19:57:08.784 +07:00 [DBG] Connection id "0HN94SEI3ERDT" started.
+2024-12-25 19:57:08.786 +07:00 [DBG] Connection id "0HN94SEI3ERDU" accepted.
+2024-12-25 19:57:08.786 +07:00 [DBG] Connection id "0HN94SEI3ERDU" started.
+2024-12-25 19:57:08.812 +07:00 [DBG] Connection id "0HN94SEI3ERDT" stopped.
+2024-12-25 19:57:12.012 +07:00 [DBG] Connection id "0HN94SEI3ERDU" completed keep alive response.
+2024-12-25 19:57:12.030 +07:00 [DBG] Connection id "0HN94SEI3ERDU", Request id "0HN94SEI3ERDU:00000001": started reading request body.
+2024-12-25 19:57:12.033 +07:00 [DBG] Connection id "0HN94SEI3ERDU", Request id "0HN94SEI3ERDU:00000001": done reading request body.

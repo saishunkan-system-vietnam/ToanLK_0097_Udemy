@@ -1,0 +1,274 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\UdemyNet8.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\HttpSection\\HttpSection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\HttpSection\\HttpSection.csproj",
+        "projectName": "HttpSection",
+        "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\HttpSection\\HttpSection.csproj",
+        "packagesPath": "C:\\Users\\ToanLK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\HttpSection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ToanLK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MiddlewareSection\\MiddlewareSection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MiddlewareSection\\MiddlewareSection.csproj",
+        "projectName": "MiddlewareSection",
+        "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MiddlewareSection\\MiddlewareSection.csproj",
+        "packagesPath": "C:\\Users\\ToanLK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MiddlewareSection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ToanLK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\RoutingSection\\RoutingSection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\RoutingSection\\RoutingSection.csproj",
+        "projectName": "RoutingSection",
+        "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\RoutingSection\\RoutingSection.csproj",
+        "packagesPath": "C:\\Users\\ToanLK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\RoutingSection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ToanLK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\UdemyNet8.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\UdemyNet8.csproj",
+        "projectName": "UdemyNet8",
+        "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\UdemyNet8.csproj",
+        "packagesPath": "C:\\Users\\ToanLK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\UdemyNet8\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ToanLK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\HttpSection\\HttpSection.csproj": {
+                "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\HttpSection\\HttpSection.csproj"
+              },
+              "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MiddlewareSection\\MiddlewareSection.csproj": {
+                "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MiddlewareSection\\MiddlewareSection.csproj"
+              },
+              "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\RoutingSection\\RoutingSection.csproj": {
+                "projectPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\RoutingSection\\RoutingSection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

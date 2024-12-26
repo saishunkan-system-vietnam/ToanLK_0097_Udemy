@@ -1,0 +1,231 @@
+2024-12-24 21:11:02.409 +07:00 [DBG] Hosting starting
+2024-12-24 21:11:02.632 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-24 21:11:02.634 +07:00 [INF] Hosting environment: Production
+2024-12-24 21:11:02.635 +07:00 [INF] Content root path: D:\code\UdemyNet8\Net8Udemy\EntityFrameWork
+2024-12-24 21:11:02.636 +07:00 [DBG] Hosting started
+2024-12-24 21:11:12.614 +07:00 [DBG] Connection id "0HN944J98GV0Q" accepted.
+2024-12-24 21:11:12.618 +07:00 [DBG] Connection id "0HN944J98GV0Q" started.
+2024-12-24 21:11:12.619 +07:00 [DBG] Connection id "0HN944J98GV0R" accepted.
+2024-12-24 21:11:12.620 +07:00 [DBG] Connection id "0HN944J98GV0R" started.
+2024-12-24 21:11:12.649 +07:00 [DBG] Connection id "0HN944J98GV0Q" stopped.
+2024-12-24 21:11:30.318 +07:00 [ERR] Connection id "0HN944J98GV0R", Request id "0HN944J98GV0R:00000001": An unhandled exception was thrown by the application.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Unknown database 'entityframework1'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'entityframework1'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(MySqlException ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthenticationAsync(Boolean execAsync, Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticateAsync(Boolean reset, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.AuthenticateAsync(String authMethod, Boolean reset, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EntityFrameWork.Service.PersonService.GetAllPerson() in D:\code\UdemyNet8\Net8Udemy\EntityFrameWork\Service\PersonService.cs:line 19
+   at EntityFrameWork.Controller.PersonController.GetAllPerson(String guid) in D:\code\UdemyNet8\Net8Udemy\EntityFrameWork\Controller\PersonController.cs:line 37
+   at lambda_method10(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware.InvokeInternal(HttpContext context, HttpLoggingOptions options, HttpLoggingAttribute loggingAttribute, HttpLoggingFields loggingFields)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-12-24 21:11:30.395 +07:00 [DBG] Connection id "0HN944J98GV0R" completed keep alive response.
+2024-12-24 21:11:54.473 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-24 21:11:54.573 +07:00 [INF] Now listening on: https://localhost:7274
+2024-12-24 21:11:54.574 +07:00 [INF] Now listening on: http://localhost:5138
+2024-12-24 21:11:54.575 +07:00 [DBG] Loaded hosting startup assembly EntityFrameWork
+2024-12-24 21:11:54.575 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-24 21:11:54.576 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-24 21:11:54.576 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-24 21:12:03.137 +07:00 [DBG] Connection id "0HN944JOADOTP" received FIN.
+2024-12-24 21:12:03.150 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-24 21:12:03.160 +07:00 [DBG] Connection 0HN944JOADOTQ established using the following protocol: "Tls12"
+2024-12-24 21:12:03.163 +07:00 [DBG] Connection id "0HN944JOADOTP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-24 21:12:03.184 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/?guid=94cdfee1-d8b6-44b7-b1e9-72c005e14e5f - null null
+2024-12-24 21:12:03.192 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-24 21:12:03.203 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-12-24 21:12:03.207 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)' with route pattern '' is valid for the request path '/'
+2024-12-24 21:12:03.209 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 21:12:03.216 +07:00 [INF] Request:
+Method: GET
+2024-12-24 21:12:03.217 +07:00 [DBG] No Content-Type header for request body.
+2024-12-24 21:12:03.217 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 21:12:03.240 +07:00 [INF] Route matched with {action = "GetAllPerson", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllPerson(System.String) on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-24 21:12:03.243 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["EntityFrameWork.Filters.AuthorizationFilter.TokenAuthorizationFilter"]
+2024-12-24 21:12:03.244 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-24 21:12:03.245 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)","EntityFrameWork.Filters.ActionFilters.PersonIndexActionfilter"]
+2024-12-24 21:12:03.247 +07:00 [DBG] Execution plan of exception filters (in the following order): ["EntityFrameWork.Filters.ExceptionFilters.HandleExceptionFilter"]
+2024-12-24 21:12:03.248 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.PersonAlwaysRunResultFilter","EntityFrameWork.Filters.ResultFilters.GetPeopleResultFilter"]
+2024-12-24 21:12:03.251 +07:00 [DBG] Executing controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-24 21:12:03.302 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-24 21:12:03.315 +07:00 [DBG] Executed controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-24 21:12:03.320 +07:00 [DBG] Attempting to bind parameter 'guid' of type 'System.String' ...
+2024-12-24 21:12:03.322 +07:00 [DBG] Attempting to bind parameter 'guid' of type 'System.String' using the name 'guid' in request data ...
+2024-12-24 21:12:03.324 +07:00 [DBG] Done attempting to bind parameter 'guid' of type 'System.String'.
+2024-12-24 21:12:03.325 +07:00 [DBG] Done attempting to bind parameter 'guid' of type 'System.String'.
+2024-12-24 21:12:03.326 +07:00 [DBG] Attempting to validate the bound parameter 'guid' of type 'System.String' ...
+2024-12-24 21:12:03.328 +07:00 [DBG] Done attempting to validate the bound parameter 'guid' of type 'System.String'.
+2024-12-24 21:12:03.330 +07:00 [INF] get all person api of PersonController
+2024-12-24 21:12:03.779 +07:00 [DBG] Entity Framework Core 8.0.10 initialized 'PersonDbContext' using provider 'MySql.EntityFrameworkCore:null' with options: None
+2024-12-24 21:12:03.797 +07:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Include("Country")'
+2024-12-24 21:12:03.849 +07:00 [DBG] Including navigation: 'Person.Country'.
+2024-12-24 21:12:03.956 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Person.PersonId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryId (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(320), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.PersonName (string) MaxLength(60), 6], [Property: Person.ReceiveNewsLetter (bool) Required, 7], [Property: Person.TIN (string) Required ValueGenerated.OnAdd, 8] }
+            1 -> Dictionary<IProperty, int> { [Property: Country.CountryId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: Country.CountryName (string) Required MaxLength(200), 10] }
+        SELECT p.PersonId, p.Address, p.CountryId, p.DateOfBirth, p.Email, p.Gender, p.PersonName, p.ReceiveNewsLetter, p.TaxIDnotation, c.CountryId, c.CountryName
+        FROM People AS p
+        LEFT JOIN Countries AS c ON p.CountryId == c.CountryId), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-24 21:12:03.972 +07:00 [DBG] Creating DbConnection.
+2024-12-24 21:12:03.976 +07:00 [DBG] Created DbConnection. (1ms).
+2024-12-24 21:12:03.978 +07:00 [DBG] Opening connection to database 'EntityFramework1' on server 'localhost'.
+2024-12-24 21:12:03.993 +07:00 [ERR] An error occurred using the connection to database 'EntityFramework1' on server 'localhost'.
+2024-12-24 21:12:03.997 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'EntityFrameWork.Context.PersonDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Unknown database 'entityframework1'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'entityframework1'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(MySqlException ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthenticationAsync(Boolean execAsync, Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticateAsync(Boolean reset, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.AuthenticateAsync(String authMethod, Boolean reset, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host 'localhost' for user 'root' using method 'caching_sha2_password' failed with message: Unknown database 'entityframework1'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown database 'entityframework1'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(MySqlException ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ContinueAuthenticationAsync(Boolean execAsync, Byte[] data)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticateAsync(Boolean reset, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.AuthenticateAsync(String authMethod, Boolean reset, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLRelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at MySql.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-12-24 21:12:04.014 +07:00 [INF] PersonIndexActionfilter.OnActionExecuted method
+2024-12-24 21:12:04.017 +07:00 [INF] Executed action EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork) in 766.2571ms
+2024-12-24 21:12:04.019 +07:00 [INF] Executed endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 21:12:04.052 +07:00 [DBG] 'PersonDbContext' disposed.
+2024-12-24 21:12:04.056 +07:00 [DBG] Disposing connection to database 'EntityFramework1' on server 'localhost'.
+2024-12-24 21:12:04.060 +07:00 [DBG] Disposed connection to database 'EntityFramework1' on server 'localhost' (1ms).
+2024-12-24 21:12:04.062 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7274/?guid=94cdfee1-d8b6-44b7-b1e9-72c005e14e5f - 500 0 null 878.8515ms
+2024-12-24 21:12:09.920 +07:00 [DBG] Connection 0HN944JOADOTR established using the following protocol: "Tls12"
+2024-12-24 21:12:09.920 +07:00 [DBG] Connection id "0HN944JOADOTS" received FIN.
+2024-12-24 21:12:09.921 +07:00 [DBG] Connection 0HN944JOADOTS established using the following protocol: "Tls12"
+2024-12-24 21:12:09.934 +07:00 [DBG] Connection id "0HN944JOADOTS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-24 21:12:09.936 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7274/?guid=94cdfee1-d8b6-44b7-b1e9-72c005e14e5f - null null
+2024-12-24 21:12:09.988 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-12-24 21:12:09.989 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)' with route pattern '' is valid for the request path '/'
+2024-12-24 21:12:09.991 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 21:12:09.993 +07:00 [INF] Request:
+Method: GET
+2024-12-24 21:12:09.994 +07:00 [DBG] No Content-Type header for request body.
+2024-12-24 21:12:09.995 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 21:12:09.996 +07:00 [INF] Route matched with {action = "GetAllPerson", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllPerson(System.String) on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-24 21:12:09.998 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["EntityFrameWork.Filters.AuthorizationFilter.TokenAuthorizationFilter"]
+2024-12-24 21:12:09.999 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-24 21:12:10.000 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)","EntityFrameWork.Filters.ActionFilters.PersonIndexActionfilter"]
+2024-12-24 21:12:10.002 +07:00 [DBG] Execution plan of exception filters (in the following order): ["EntityFrameWork.Filters.ExceptionFilters.HandleExceptionFilter"]
+2024-12-24 21:12:10.007 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.PersonAlwaysRunResultFilter","EntityFrameWork.Filters.ResultFilters.GetPeopleResultFilter"]
+2024-12-24 21:12:10.011 +07:00 [INF] Authorization failed for the request at filter 'EntityFrameWork.Filters.AuthorizationFilter.TokenAuthorizationFilter'.
+2024-12-24 21:12:10.013 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2024-12-24 21:12:10.014 +07:00 [INF] Executed action EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork) in 4.1294ms
+2024-12-24 21:12:10.015 +07:00 [INF] Executed endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 21:12:10.018 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7274/?guid=94cdfee1-d8b6-44b7-b1e9-72c005e14e5f - 401 0 null 82.091ms
+2024-12-24 21:14:14.946 +07:00 [DBG] Connection id "0HN944JOADOTQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-24 21:14:22.001 +07:00 [DBG] Connection id "0HN944JOADOTR" received FIN.
+2024-12-24 21:14:22.001 +07:00 [DBG] Connection id "0HN944JOADOTR" sending FIN because: "The Socket transport's send loop completed gracefully."

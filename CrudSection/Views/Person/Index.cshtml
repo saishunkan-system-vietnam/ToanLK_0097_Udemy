@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Person>
+
+@{
+    ViewBag.Title = "Person";
+}
+<form action="~/person/index" method="get">
+<h1>Persons</h1>
+<div>
+    <select class="form-select" aria-label="Default select example" name="searchBy">
+        @foreach(var field in ViewBag.SearchFields)
+        {
+            if(field.Key == ViewBag.SearchBy){
+                <option value="@field.Key" selected>
+                    @field.Value
+                </option>
+            }
+            else{
+                <option value="@field.Key">
+                    @field.Value
+                </option>
+            }
+        }
+    </select>
+    <span>
+         <label for="input_search" class="col-sm-2 col-form-label">Keyword</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="input_search" placeholder='Search' name="keyword" value="@ViewBag.Keyword">
+        </div>
+    </span>
+    <div class="pt-2">
+    <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+    <div class="pt-2">
+        <a href="~/person/index" class="btn btn-secondary" tabindex="-1" role="button">Clear All</a>
+    </div>
+</div>
+<div>
+    <table class="table table-striped">
+    <tr>
+        <th>ID
+            <a href=""></a>
+        </th>
+        <th>Full Name</th>
+        <th>Age</th>
+        <th>Job</th>
+    </tr>
+    @foreach(Person person in Model)
+    {
+        <tr>
+            <td>@person.Id</td>
+            <td>@person.Name</td>
+            <td>@person.Age</td>
+            <td>@person.Job</td>
+        </tr>
+    }
+</table>
+</div>
+</form>

@@ -1,0 +1,124 @@
+2024-12-24 20:00:00.479 +07:00 [DBG] Connection id "0HN943BG29DPS" accepted.
+2024-12-24 20:00:00.482 +07:00 [DBG] Connection id "0HN943BG29DPS" started.
+2024-12-24 20:00:00.484 +07:00 [DBG] Connection id "0HN943BG29DPT" accepted.
+2024-12-24 20:00:00.486 +07:00 [DBG] Connection id "0HN943BG29DPT" started.
+2024-12-24 20:00:00.503 +07:00 [DBG] Connection id "0HN943BG29DPS" stopped.
+2024-12-24 20:00:01.579 +07:00 [DBG] Connection id "0HN943BG29DPT" completed keep alive response.
+2024-12-24 20:00:12.112 +07:00 [DBG] Config reload token fired. Checking for changes...
+2024-12-24 20:00:12.374 +07:00 [DBG] Config reload token fired. Checking for changes...
+2024-12-24 20:00:23.506 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-24 20:00:23.696 +07:00 [INF] Now listening on: https://localhost:7274
+2024-12-24 20:00:23.697 +07:00 [INF] Now listening on: http://localhost:5138
+2024-12-24 20:00:23.698 +07:00 [DBG] Loaded hosting startup assembly EntityFrameWork
+2024-12-24 20:00:23.698 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-24 20:00:23.699 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-24 20:00:23.699 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-24 20:00:26.478 +07:00 [DBG] Connection id "0HN943BNQ9ETR" received FIN.
+2024-12-24 20:00:26.500 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-24 20:00:26.519 +07:00 [DBG] Connection id "0HN943BNQ9ETR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-24 20:00:26.527 +07:00 [DBG] Connection 0HN943BNQ9ETS established using the following protocol: "Tls12"
+2024-12-24 20:00:26.564 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7274/?guid=94cdfee1-d8b6-44b7-b1e9-72c005e14e5f - null null
+2024-12-24 20:00:26.577 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-24 20:00:26.596 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-12-24 20:00:26.600 +07:00 [DBG] Endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)' with route pattern '' is valid for the request path '/'
+2024-12-24 20:00:26.604 +07:00 [DBG] Request matched endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 20:00:26.613 +07:00 [INF] Request:
+Method: GET
+2024-12-24 20:00:26.614 +07:00 [DBG] No Content-Type header for request body.
+2024-12-24 20:00:26.615 +07:00 [INF] Executing endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 20:00:26.680 +07:00 [INF] Route matched with {action = "GetAllPerson", controller = "Person"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllPerson(System.String) on controller EntityFrameWork.Controller.PersonController (EntityFrameWork).
+2024-12-24 20:00:26.689 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["EntityFrameWork.Filters.AuthorizationFilter.TokenAuthorizationFilter"]
+2024-12-24 20:00:26.691 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-24 20:00:26.693 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 1)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)","EntityFrameWork.Filters.ActionFilters.ResponseHeaderActionFilter (Order: 3)","EntityFrameWork.Filters.ActionFilters.PersonIndexActionfilter"]
+2024-12-24 20:00:26.699 +07:00 [DBG] Execution plan of exception filters (in the following order): ["EntityFrameWork.Filters.ExceptionFilters.HandleExceptionFilter"]
+2024-12-24 20:00:26.704 +07:00 [DBG] Execution plan of result filters (in the following order): ["EntityFrameWork.Filters.ResultFilters.GetPeopleResultFilter"]
+2024-12-24 20:00:26.711 +07:00 [DBG] Executing controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-24 20:00:26.833 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-24 20:00:26.861 +07:00 [DBG] Executed controller factory for controller EntityFrameWork.Controller.PersonController (EntityFrameWork)
+2024-12-24 20:00:26.877 +07:00 [DBG] Attempting to bind parameter 'guid' of type 'System.String' ...
+2024-12-24 20:00:26.880 +07:00 [DBG] Attempting to bind parameter 'guid' of type 'System.String' using the name 'guid' in request data ...
+2024-12-24 20:00:26.882 +07:00 [DBG] Done attempting to bind parameter 'guid' of type 'System.String'.
+2024-12-24 20:00:26.883 +07:00 [DBG] Done attempting to bind parameter 'guid' of type 'System.String'.
+2024-12-24 20:00:26.887 +07:00 [DBG] Attempting to validate the bound parameter 'guid' of type 'System.String' ...
+2024-12-24 20:00:26.890 +07:00 [DBG] Done attempting to validate the bound parameter 'guid' of type 'System.String'.
+2024-12-24 20:00:39.155 +07:00 [INF] get all person api of PersonController
+2024-12-24 20:00:39.678 +07:00 [DBG] Entity Framework Core 8.0.10 initialized 'PersonDbContext' using provider 'MySql.EntityFrameworkCore:null' with options: None
+2024-12-24 20:00:39.700 +07:00 [DBG] Compiling query expression: 
+'DbSet<Person>()
+    .Include("Country")'
+2024-12-24 20:00:39.771 +07:00 [DBG] Including navigation: 'Person.Country'.
+2024-12-24 20:00:39.898 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Person>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: Person.PersonId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Person.Address (string) MaxLength(200), 1], [Property: Person.CountryId (Guid?) FK Index, 2], [Property: Person.DateOfBirth (DateTime?), 3], [Property: Person.Email (string) MaxLength(320), 4], [Property: Person.Gender (string) MaxLength(10), 5], [Property: Person.PersonName (string) MaxLength(60), 6], [Property: Person.ReceiveNewsLetter (bool) Required, 7], [Property: Person.TIN (string) Required ValueGenerated.OnAdd, 8] }
+            1 -> Dictionary<IProperty, int> { [Property: Country.CountryId (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 9], [Property: Country.CountryName (string) Required MaxLength(200), 10] }
+        SELECT p.PersonId, p.Address, p.CountryId, p.DateOfBirth, p.Email, p.Gender, p.PersonName, p.ReceiveNewsLetter, p.TaxIDnotation, c.CountryId, c.CountryName
+        FROM People AS p
+        LEFT JOIN Countries AS c ON p.CountryId == c.CountryId), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Person>, 
+    EntityFrameWork.Context.PersonDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-24 20:00:39.917 +07:00 [DBG] Creating DbConnection.
+2024-12-24 20:00:39.921 +07:00 [DBG] Created DbConnection. (2ms).
+2024-12-24 20:00:39.926 +07:00 [DBG] Opening connection to database 'EntityFramework' on server 'localhost'.
+2024-12-24 20:00:40.033 +07:00 [DBG] Opened connection to database 'EntityFramework' on server 'localhost'.
+2024-12-24 20:00:40.036 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-24 20:00:40.041 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-12-24 20:00:40.042 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-12-24 20:00:40.046 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`, `c`.`CountryId`, `c`.`CountryName`
+FROM `People` AS `p`
+LEFT JOIN `Countries` AS `c` ON `p`.`CountryId` = `c`.`CountryId`
+2024-12-24 20:00:40.065 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `p`.`PersonId`, `p`.`Address`, `p`.`CountryId`, `p`.`DateOfBirth`, `p`.`Email`, `p`.`Gender`, `p`.`PersonName`, `p`.`ReceiveNewsLetter`, `p`.`TaxIDnotation`, `c`.`CountryId`, `c`.`CountryName`
+FROM `People` AS `p`
+LEFT JOIN `Countries` AS `c` ON `p`.`CountryId` = `c`.`CountryId`
+2024-12-24 20:00:40.083 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.115 +07:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.121 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.125 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.126 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.127 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.128 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.129 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.129 +07:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.130 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.131 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.132 +07:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.132 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.133 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.135 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.137 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.137 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.138 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.142 +07:00 [DBG] The navigation 'Person.Country' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.142 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Country' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.143 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.144 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.145 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.145 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.146 +07:00 [DBG] Context 'PersonDbContext' started tracking 'Person' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-24 20:00:40.148 +07:00 [DBG] Closing data reader to 'EntityFramework' on server 'localhost'.
+2024-12-24 20:00:40.153 +07:00 [DBG] A data reader for 'EntityFramework' on server 'localhost' is being disposed after spending 82ms reading results.
+2024-12-24 20:00:40.156 +07:00 [DBG] Closing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-24 20:00:40.162 +07:00 [DBG] Closed connection to database 'EntityFramework' on server 'localhost' (6ms).
+2024-12-24 20:00:40.165 +07:00 [DBG] country of first person in list: EntityFrameWork.Entities.Person
+2024-12-24 20:00:40.166 +07:00 [INF] PersonIndexActionfilter.OnActionExecuted method
+2024-12-24 20:00:40.177 +07:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[EntityFrameWork.Entities.Person, EntityFrameWork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-24 20:00:40.195 +07:00 [INF] Executed action EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork) in 13485.5478ms
+2024-12-24 20:00:40.197 +07:00 [INF] Executed endpoint 'EntityFrameWork.Controller.PersonController.GetAllPerson (EntityFrameWork)'
+2024-12-24 20:00:40.202 +07:00 [DBG] 'PersonDbContext' disposed.
+2024-12-24 20:00:40.207 +07:00 [DBG] Disposing connection to database 'EntityFramework' on server 'localhost'.
+2024-12-24 20:00:40.209 +07:00 [DBG] Disposed connection to database 'EntityFramework' on server 'localhost' (2ms).
+2024-12-24 20:00:40.211 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7274/?guid=94cdfee1-d8b6-44b7-b1e9-72c005e14e5f - 200 null application/json; charset=utf-8 13652.3523ms

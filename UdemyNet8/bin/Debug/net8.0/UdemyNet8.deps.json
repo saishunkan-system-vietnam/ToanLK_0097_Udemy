@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UdemyNet8/1.0.0": {
+        "dependencies": {
+          "HttpSection": "1.0.0",
+          "MiddlewareSection": "1.0.0",
+          "RoutingSection": "1.0.0"
+        },
+        "runtime": {
+          "UdemyNet8.dll": {}
+        }
+      },
+      "HttpSection/1.0.0": {
+        "runtime": {
+          "HttpSection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MiddlewareSection/1.0.0": {
+        "runtime": {
+          "MiddlewareSection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "RoutingSection/1.0.0": {
+        "runtime": {
+          "RoutingSection.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdemyNet8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HttpSection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiddlewareSection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoutingSection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

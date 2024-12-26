@@ -1,0 +1,17 @@
+﻿<th>
+    @if(ViewBag.SortOrder == 0 && ViewBag.SortBy == ViewBag.ColumnName)
+    {
+        <span>@ViewBag.DisplayName</span>
+        <a class="sort-dropdown" href="~/person/index?searchBy=@ViewBag.searchBy&keyword=@ViewBag.keyword&SortBy=@(ViewBag.ColumnName)&sortorder=1">&#x25B2</a>
+    }
+    else if(ViewBag.SortOrder == 1 && ViewBag.SortBy == ViewBag.ColumnName)
+    {
+        <span>@ViewBag.DisplayName</span>
+        <a class="sort-dropdown" href="~/person/index?searchBy=@ViewBag.searchBy&keyword=@ViewBag.keyword&SortBy=@(ViewBag.ColumnName)&sortorder=0">&#x25BC</a>
+    }
+    else{
+      <a class="sort-dropdown" href="~/person/index?searchBy=@ViewBag.searchBy&keyword=@ViewBag.keyword&SortBy=@(ViewBag.ColumnName)&sortorder=0">
+          @ViewBag.DisplayName
+          </a>
+    }
+</th>

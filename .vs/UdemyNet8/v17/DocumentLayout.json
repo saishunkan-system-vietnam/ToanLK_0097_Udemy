@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\module\\productmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|solutionrelative:minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\module\\productmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|solutionrelative:minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\middleware\\responsecachingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|solutionrelative:minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\middleware\\responsecachingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\entityframework\\logs\\log2024122421_003.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|solutionrelative:entityframework\\logs\\log2024122421_003.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\entityframework\\logs\\log2024122421_004.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|solutionrelative:entityframework\\logs\\log2024122421_004.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\entityframework\\logs\\log2024122421_001.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|solutionrelative:entityframework\\logs\\log2024122421_001.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\entityframework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|solutionrelative:entityframework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|solutionrelative:entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\entityframework\\service\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{121C2461-01C4-43FC-A81E-CC7ECF03BBC0}|EntityFrameWork\\EntityFrameWork.csproj|solutionrelative:entityframework\\service\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|c:\\users\\toanlk\\source\\repos\\udemynet8\\minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE8B53E-D579-4451-A2B7-75F71956CBD4}|MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\BaseProject.API.csproj|solutionrelative:minimalproject\\asp-net-api-7-minimal-base-code\\baseproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductModule.cs",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Module\\ProductModule.cs",
+              "RelativeDocumentMoniker": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Module\\ProductModule.cs",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Module\\ProductModule.cs",
+              "RelativeToolTip": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Module\\ProductModule.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:49:57.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Filters\\ExceptionFilter.cs",
+              "RelativeDocumentMoniker": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Filters\\ExceptionFilter.cs",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Filters\\ExceptionFilter.cs",
+              "RelativeToolTip": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Filters\\ExceptionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:47:01.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseCachingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Middleware\\ResponseCachingMiddleware.cs",
+              "RelativeDocumentMoniker": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Middleware\\ResponseCachingMiddleware.cs",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Middleware\\ResponseCachingMiddleware.cs",
+              "RelativeToolTip": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Middleware\\ResponseCachingMiddleware.cs",
+              "ViewState": "AgIAABcAAADAZWZmZiYhwDUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:45:22.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "log2024122421_003.txt",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\logs\\log2024122421_003.txt",
+              "RelativeDocumentMoniker": "EntityFrameWork\\logs\\log2024122421_003.txt",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\logs\\log2024122421_003.txt",
+              "RelativeToolTip": "EntityFrameWork\\logs\\log2024122421_003.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-26T08:44:06.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "log2024122421_004.txt",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\logs\\log2024122421_004.txt",
+              "RelativeDocumentMoniker": "EntityFrameWork\\logs\\log2024122421_004.txt",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\logs\\log2024122421_004.txt",
+              "RelativeToolTip": "EntityFrameWork\\logs\\log2024122421_004.txt",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwD0AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-26T08:43:19.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "log2024122421_001.txt",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\logs\\log2024122421_001.txt",
+              "RelativeDocumentMoniker": "EntityFrameWork\\logs\\log2024122421_001.txt",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\logs\\log2024122421_001.txt",
+              "RelativeToolTip": "EntityFrameWork\\logs\\log2024122421_001.txt",
+              "ViewState": "AgIAAGIAAAAAzMzMzIwtwBMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-26T08:43:00.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\appsettings.json",
+              "RelativeDocumentMoniker": "EntityFrameWork\\appsettings.json",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\appsettings.json",
+              "RelativeToolTip": "EntityFrameWork\\appsettings.json",
+              "ViewState": "AgIAAAoAAACgzMzMzKwwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-26T08:42:46.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFrameWork\\Program.cs",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\Program.cs",
+              "RelativeToolTip": "EntityFrameWork\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAmZmZmRkVwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:42:29.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\Service\\CountryService.cs",
+              "RelativeDocumentMoniker": "EntityFrameWork\\Service\\CountryService.cs",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\EntityFrameWork\\Service\\CountryService.cs",
+              "RelativeToolTip": "EntityFrameWork\\Service\\CountryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:19:45.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ToanLK\\source\\repos\\UdemyNet8\\MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Program.cs",
+              "RelativeToolTip": "MinimalProject\\asp-net-api-7-minimal-base-code\\BaseProject.API\\Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAADwv4wAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T06:21:25.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
